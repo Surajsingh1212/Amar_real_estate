@@ -3191,7 +3191,7 @@ textarea:focus {
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {
     .text-white a[href^=tel] {
-        color: var(--white)
+        /* color: var(--white) */
     }
 
     .text-dark-gray a[href^=tel] {
@@ -8877,7 +8877,7 @@ header.sticky .navbar.disable-fixed {
 .navbar .navbar-nav .nav-link {
     font-size: 16px;
     line-height: 20px;
-    padding: 10px 20px;
+    padding: 10px 16px;
     position: relative;
     font-weight: 500;
     opacity: 1;
@@ -22883,4 +22883,57 @@ footer .footer-navbar .nav-item:last-child a {
 .google_map_qr{
     height: 60px;
     width: 60px;
+}
+
+.image-details{
+    /* height: 80%;
+    width: 80%; */
+    border: 2px solid #fc3b04;
+}
+
+.padding-left{
+    padding-left: 90px !important;
+}
+@media(max-width:425px){
+    .padding-left{
+        padding-left: 0px !important;
+    }
+}
+
+@media(max-width:320px){
+    header .navbar [class*=col-] {
+        padding: 0 0px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex
+    }
+    
+}
+
+@media(max-width:320px){
+    header .navbar-brand{
+        padding: 0px 0px !important;
+    }
+    
+}
+@media(max-width:375px){
+    header .navbar-brand{
+        padding: 0px 0px !important;
+    }
+    
+}
+@media(max-width:425px){
+    header .navbar-brand{
+        padding: 0px 0px !important;
+    }
+}
+@media(max-width:425px){
+    .margin-top12{
+        margin-top: 88px;
+    }
+}
+@media(max-width:425px){
+    .margin-top-img12{
+        margin-top: 20px;
+    }
 }
